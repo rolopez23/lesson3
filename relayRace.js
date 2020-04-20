@@ -12,6 +12,4 @@ const firstLeg = new RelayRunner('Rob', distance, secondLeg.run.bind(secondLeg))
 
 
 console.log('On your mark! GetSet! Go!')
-// setTimeout(()=>{console.log('GetSet')}, 100);
-// setTimeout(()=>{console.log('Go!!!!!!')}, 100);
 firstLeg.run();
