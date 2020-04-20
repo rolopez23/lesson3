@@ -1,0 +1,14 @@
+{
+  "name": "runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Runner.js",
+  "scripts": {
+    "start": "node relayRace.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
