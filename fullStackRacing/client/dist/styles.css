@@ -1,0 +1,15 @@
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#titleText {
+  align-self: center;
+  color: red;
+}
