@@ -6,9 +6,9 @@ class Runner {
     this.speed = .5 + (Math.random() * .5)
   }
 
-  run(failure, finish) {
+  run() {
     console.log(`${this.name} is Running!`);
-    setTimeout((failure, finish)=>{this.callback(failure, finish)}, this.distance / this.speed)
+    setTimeout(this.callback, this.distance / this.speed)
   }
 
 }
